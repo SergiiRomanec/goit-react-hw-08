@@ -1,0 +1,41 @@
+.searchBox {
+    width: 100%;
+    max-width: 375px;
+}
+
+.searchLabel {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchLabel span {
+    margin-bottom: 3px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.searchInput {
+    padding: 10px;
+    border: 1px solid #3d099a;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    box-shadow: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .searchInput {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .searchLabel span {
+        margin-bottom: 5px;
+        font-size: 20px;
+    } 
+}
