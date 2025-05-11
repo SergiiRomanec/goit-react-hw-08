@@ -11,7 +11,7 @@ import { RegistrationPage } from "../../pages/RegistrationPage/RegistrationPage"
 import { refreshUser } from "../../redux/auth/operations";
 import { selectIsRefreshing } from "../../redux/auth/selectors";
 import { PrivateRoute } from "../PrivateRoute/PrivateRoute";
-import { RestrictedRoute } from "../RestrictedRoute/RestrictedRoute";
+import { ResctrictedRoute } from "../ResctrictedRoute/ResctrictedRoute";
 import { NotFound } from "../../pages/NotFound/NotFound";
 // const Layout = lazy(() => import("../Layout/Layout"));
 // const HomePage = lazy(() => import("../../pages/HomePage/HomePage"));
